@@ -1,0 +1,14 @@
+/.vagrant
+/config.rb
+/copied/home/.netrc
+
+/shared/*
+!/shared/.gitkeep
+
+/conf/nginx/*.conf
+!/conf/nginx/backends.conf
+
+/logs/*
+!/logs/nginx
+/logs/nginx/*
+!/logs/nginx/.gitkeep

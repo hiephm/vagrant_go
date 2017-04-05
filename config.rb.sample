@@ -1,0 +1,15 @@
+$vm_box = "debian/jessie64"  #Debian 8
+$vm_memory = 4096
+$vm_cpus = 2
+
+$hostname = "dev.local"
+$vm_name = "Dev Environment"
+
+$vm_ips = ["192.168.56.100"]
+$vm_ssh_port = 2200
+
+$shared_folders = {'D:/work' => '/work'}
+
+$gui = true
+
+
